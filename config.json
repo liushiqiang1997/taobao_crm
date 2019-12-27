@@ -1,0 +1,38 @@
+// 电商订单自动同步系统 1.0
+
+// 网站ip
+const site_ip = '47.104.173.175'
+
+// 数据库
+// const config = {
+//     //启动端口
+//     port: 8080,
+
+//     //数据库配置
+//     database: {
+//         DATABASE: 'taobao_crm_backup',
+//         USERNAME: 'root',
+//         PASSWORD: 'TFiy7czV2IcEK2rc',
+//         PORT: '3306',
+//         HOST: '47.104.173.175'
+//     }
+// }
+
+const config = {
+    //数据库配置  用户
+    database: {
+        DATABASE: 'taobao_crm',
+        USERNAME: 'root',
+        PASSWORD: 'TFiy7czV2IcEK2rc',
+        PORT: '3306',
+        HOST: '127.0.0.1'
+    }
+}
+
+// 淘宝配置 支持top接口实时拉取订单
+const topapi = {
+    //淘宝接口配置
+    taobao: {
+    
+    }
+}
